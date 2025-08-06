@@ -13,7 +13,7 @@
   gap: 20px;
   max-width: 1200px;
   width: 100%;
-  transform: translateX(180px);
+  transform: none;
 }
 
 .work-edu {
@@ -50,7 +50,8 @@
   color: #d1d5d8;
   border-radius: 4px;
   padding: 32px 32px 24px;
-  width: 840px;
+  width: 100%;
+  max-width: 840px;
   box-sizing: border-box;
   overflow-y: auto;
   font-family: "GeistSans", sans-serif;
@@ -72,8 +73,8 @@
   display: block;
   color: #9ca3af;
   font-size: 18px;
-  font-family: "GeistSans", sans-serif;
   margin-bottom: 12px;
+  font-family: "GeistSans", sans-serif;
 }
 
 .work-inf ul {
@@ -85,10 +86,79 @@
 .work-inf li {
   color: #d1d5d8;
   font-size: 18px;
-  font-family: "GeistSans", sans-serif;
   margin-bottom: 10px;
+  font-family: "GeistSans", sans-serif;
 }
 
 .work-inf li:last-child {
   margin-bottom: 0;
+}
+
+@media (min-width: 1024px) {
+  .work-wrapper {
+    padding-left: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .work-wrapper {
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .work-edu {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .topic-work {
+    font-size: 24px;
+  }
+
+  .work-inf {
+    padding: 16px;
+    font-size: 14px;
+    max-width: 100%;
+  }
+
+  .work-inf h3 {
+    font-size: 18px;
+  }
+
+  .work-inf > span {
+    font-size: 16px;
+  }
+
+  .work-inf li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .topic-work {
+    font-size: 20px;
+  }
+
+  .work-icon {
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+  }
+
+  .work-inf {
+    padding: 12px;
+  }
+
+  .work-inf h3 {
+    font-size: 16px;
+  }
+
+  .work-inf > span {
+    font-size: 14px;
+  }
+
+  .work-inf li {
+    font-size: 14px;
+  }
 }

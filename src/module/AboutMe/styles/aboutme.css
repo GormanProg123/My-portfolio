@@ -13,7 +13,7 @@
   gap: 16px;
   max-width: 1200px;
   width: 100%;
-  transform: translateX(180px);
+  transform: none;
 }
 
 .icon-code {
@@ -49,11 +49,11 @@
   color: #d1d5d8;
   border-radius: 4px;
   padding: 32px 32px 24px;
-  width: 840px;
-  height: 220px;
-  margin-top: -20px;
+  width: 100%;
+  max-width: 840px;
   box-sizing: border-box;
   overflow-y: auto;
+  min-height: 150px;
 }
 
 .table-info h3 {
@@ -61,4 +61,61 @@
   line-height: 1.5;
   margin: 0;
   font-family: "GeistSans", sans-serif;
+}
+
+.avatar-img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+}
+
+@media (min-width: 1024px) {
+  .aboutme-wrapper {
+    padding-left: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutme-wrapper {
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .header-me {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .topic-me {
+    font-size: 24px;
+  }
+
+  .table-info {
+    padding: 16px;
+    font-size: 14px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .table-info h3 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .topic-me {
+    font-size: 20px;
+  }
+
+  .icon-code {
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+  }
+
+  .table-info {
+    padding: 12px;
+    font-size: 12px;
+  }
 }

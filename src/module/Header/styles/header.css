@@ -11,8 +11,8 @@
   display: flex;
   align-items: flex-start;
   margin: 0 auto;
-  transform: translateX(100px);
   position: relative;
+  transform: none;
 }
 
 .avatar-wrapper {
@@ -112,4 +112,74 @@
 
 .lang-switch button:hover {
   background-color: #374151;
+}
+
+@media (min-width: 1024px) {
+  .header-wrapper {
+    padding-left: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-wrapper {
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+  }
+
+  .avatar-wrapper {
+    width: 96px;
+    height: 96px;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+
+  .name {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .contact-list {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .contact-list li {
+    justify-content: center;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .contact-button {
+    width: 90%;
+  }
+
+  .lang-switch {
+    top: 8px;
+    right: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .name {
+    font-size: 22px;
+  }
+
+  .avatar-wrapper {
+    width: 80px;
+    height: 80px;
+  }
+
+  .contact-list {
+    font-size: 12px;
+  }
+
+  .contact-button {
+    font-size: 12px;
+    height: 40px;
+  }
 }

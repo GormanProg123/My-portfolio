@@ -30,6 +30,7 @@ export const Header = () => {
       <header className="header-wrapper">
         <div className="avatar-wrapper">
           <Avatar
+            className="avatar-img"
             w="144px"
             h="144px"
             src="https://avatars.githubusercontent.com/u/151737827?v=4"

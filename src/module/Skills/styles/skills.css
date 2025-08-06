@@ -14,7 +14,7 @@
   gap: 20px;
   max-width: 1200px;
   width: 100%;
-  transform: translateX(180px);
+  transform: none;
 }
 
 .skill-edu {
@@ -48,7 +48,8 @@
 .cards-row {
   display: flex;
   gap: 24px;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .skill-card {
@@ -85,7 +86,6 @@
   font-family: "GeistSans", sans-serif;
 }
 
-/* Списки */
 .reset-list {
   list-style: none;
   padding: 0;
@@ -96,7 +96,6 @@
   gap: 8px;
 }
 
-/* Программные языки */
 .prog-lang {
   display: flex;
   align-items: center;
@@ -119,7 +118,6 @@
   flex: 1;
 }
 
-/* Обычные языки */
 .spoken-lang {
   display: flex;
   align-items: center;
@@ -139,4 +137,78 @@
   min-width: 32px;
   text-align: right;
   font-weight: 500;
+}
+
+@media (min-width: 1024px) {
+  .skills-wrapper {
+    padding-left: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-wrapper {
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .skill-edu {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .skill-work {
+    font-size: 24px;
+  }
+
+  .cards-row {
+    justify-content: center;
+  }
+
+  .skill-card {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    padding: 20px;
+    margin-top: 0;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .prog-lang,
+  .spoken-lang {
+    font-size: 14px;
+  }
+
+  .lang-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-work {
+    font-size: 20px;
+  }
+
+  .skill-icon {
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+  }
+
+  .skill-card {
+    padding: 16px;
+  }
+
+  .card-title {
+    font-size: 14px;
+  }
+
+  .prog-lang,
+  .spoken-lang {
+    font-size: 12px;
+  }
 }
