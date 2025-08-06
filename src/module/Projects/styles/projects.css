@@ -1,0 +1,116 @@
+.project-container {
+  background-color: #1e2735;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: "GeistSans", sans-serif;
+}
+
+.project-wrapper {
+  padding: 32px 24px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1200px;
+  width: 100%;
+  transform: translateX(180px);
+}
+
+.project-edu {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.project-icon {
+  display: inline-block;
+  background: linear-gradient(45deg, #14b8a6, #2563eb);
+  border-radius: 12px;
+  padding: 8px;
+  color: white;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topic-pro {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+  font-family: "GeistSans", sans-serif;
+}
+
+/* New styles for project cards */
+.project-cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: -20px;
+}
+
+.project-card {
+  width: 410px;
+  height: 300px;
+  padding: 32px 32px 24px;
+  border: 1px solid #677083;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #2d3746;
+  position: relative;
+  gap: 12px;
+}
+
+.project-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-family: "GeistSans", sans-serif;
+  margin: 0;
+}
+
+.project-type {
+  font-size: 18px;
+  font-family: "GeistSans", sans-serif;
+  color: #9ca3af;
+}
+
+.project-description {
+  font-size: 18px;
+  font-family: "GeistSans", sans-serif;
+  color: #d1d5d8;
+  flex-grow: 1;
+}
+
+.project-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.project-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.project-card-link:hover {
+  transform: translateY(-4px);
+}
+
+.stack-item {
+  background-color: #374151;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "GeistSans", sans-serif;
+  padding: 4px 8px;
+  border-radius: 8px;
+}

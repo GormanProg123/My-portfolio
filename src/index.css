@@ -1,0 +1,29 @@
+:root {
+  --form-background: #7277d8;
+  --button-background: #080e73;
+  --button-hover-background: #060a50;
+}
+
+[data-scope="slider"][data-part="root"] {
+  display: flex;
+  flex-direction: column;
+}
+
+@font-face {
+  font-family: "Lemon";
+  src: url("/fonts/Lemon-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-lemon {
+  font-family: "Lemon", cursive;
+}
+
+.bg {
+  background-image: url(./shared/assets/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  resize: none;
+}

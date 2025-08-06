@@ -1,0 +1,69 @@
+{
+  "aboutMe": {
+    "title": "About Me",
+    "description": "I'm a web developer from Poland, currently pursuing higher education at Collegium Da Vinci. My main stack includes React, TypeScript, and NestJS/NodeJS. I also have experience with HTML/CSS, PostgreSQL, Go, as well as Git, Jira, and Swagger. Additionally, I possess strong communication skills, making it easy for me to interact with people and work in a team. However, I'm also capable of working independently and am fully committed to my work."
+  },
+  "education": {
+    "title": "Education",
+    "degree": "Bachelor's Degree in Computer Engineering",
+    "university": "Collegium Da Vinci • 2023-2027",
+    "description": "At Collegium Da Vinci, I am studying various aspects of my profession, ranging from basic computer technology concepts to game development and web programming. We have also been trained to work with PostgreSQL and computer networks."
+  },
+  "work": {
+    "title": "Work / Intern Experience",
+    "positions": {
+      "frontend": {
+        "title": "Front-end Web-developer",
+        "company": "Ortvest • 01.2025 - now",
+        "tasks": [
+          "Development and enhancement of web applications",
+          "Working with APIs and HTTP request methods",
+          "Working with various React libraries"
+        ]
+      },
+      "intern": {
+        "title": "Intern Web-Developer",
+        "company": "Sysmo.pl • 10.2024 - 03.2025",
+        "tasks": [
+          "Development and enhancement of web applications",
+          "Working with 3D technologies on web pages",
+          "Working with human body keypoint tracking using MoveNet technologies"
+        ]
+      }
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "languages": {
+      "title": "Languages"
+    },
+    "spoken": [
+      { "name": "Polish", "initials": "PL", "level": "B2" },
+      { "name": "English", "initials": "EN", "level": "B2" },
+      { "name": "Belarusian", "initials": "BY", "level": "B1" },
+      { "name": "Russian", "initials": "RU", "level": "C1" }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "bankrupt": {
+      "type": "Web Banking Layout",
+      "description": "A project made for a university subject. It is a mock-up of banking with functions like creating an account, creating a card, and sending virtual currency."
+    },
+    "vpn": {
+      "type": "Backend for VPN",
+      "description": "The back-end for the VPNguine project, which is a VPN browser extension. Developed jointly with another developer."
+    },
+    "weather": {
+      "type": "Data visualization project",
+      "description": "My first React app using JavaScript and OpenWeather API to view weather data in different cities around the world."
+    },
+    "userMgmt": {
+      "type": "React menu app",
+      "description": "An app for a job interview that fetches data from an open API and displays it in a table with filtering. Uses Redux."
+    }
+  },
+  "footer": {
+    "agreement": "I agree to the processing of personal data provided in this document for realizing the recruitment process pursuant to the Personal Data Protection Act of 10 May 2018 (Journal of Laws 2018, item 1000) and in agreement with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)."
+  }
+}

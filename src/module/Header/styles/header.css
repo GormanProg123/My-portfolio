@@ -1,0 +1,115 @@
+.header-container {
+  width: 100%;
+  background: linear-gradient(to right, #1f2937 0%, #374151 100%);
+  border-bottom: 1px solid #4b5563;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.header-wrapper {
+  max-width: 1000px;
+  padding: 32px 24px;
+  display: flex;
+  align-items: flex-start;
+  margin: 0 auto;
+  transform: translateX(100px);
+  position: relative;
+}
+
+.avatar-wrapper {
+  width: 144px;
+  height: 144px;
+  border-radius: 9999px;
+  border: 1px solid #6b7280;
+  overflow: hidden;
+  margin-right: 24px;
+  flex-shrink: 0;
+}
+
+.info {
+  text-align: left;
+  flex: 1;
+}
+
+.name {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.contact-list {
+  margin-top: 8px;
+  color: #d1d5d8;
+  font-size: 18px;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.icon-circle {
+  width: 28px;
+  height: 28px;
+  background-color: #374151;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+.buttons {
+  margin-top: 16px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: nowrap;
+}
+
+.contact-button {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  width: 150px;
+  height: 44px;
+  border: 1px solid #6b7280;
+  border-radius: 2px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.button-icon {
+  font-size: 18px;
+  color: white;
+}
+
+.lang-switch {
+  position: absolute;
+  top: 16px;
+  right: 24px;
+}
+
+.lang-switch button {
+  background-color: #1f2937;
+  color: white;
+  border: 1px solid #6b7280;
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.lang-switch button:hover {
+  background-color: #374151;
+}

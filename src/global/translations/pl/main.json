@@ -1,0 +1,69 @@
+{
+  "aboutMe": {
+    "title": "O mnie",
+    "description": "Jestem programistą webowym z Polski, obecnie studiuję w Collegium Da Vinci. Mój główny stack to React, TypeScript i NestJS/NodeJS. Mam także doświadczenie z HTML/CSS, PostgreSQL, Go oraz narzędziami Git, Jira i Swagger. Dodatkowo posiadam silne umiejętności komunikacyjne, co ułatwia mi współpracę z ludźmi i pracę zespołową. Potrafię jednak również pracować samodzielnie i w pełni angażuję się w swoją pracę."
+  },
+  "education": {
+    "title": "Edukacja",
+    "degree": "Licencjat z inżynierii komputerowej",
+    "university": "Collegium Da Vinci • 2023-2027",
+    "description": "Na Collegium Da Vinci studiuję różne aspekty mojego zawodu, począwszy od podstawowych pojęć technologii komputerowych, aż po tworzenie gier i programowanie stron internetowych. Uczymy się również pracy z PostgreSQL i sieciami komputerowymi."
+  },
+  "work": {
+    "title": "Doświadczenie zawodowe / stażowe",
+    "positions": {
+      "frontend": {
+        "title": "Front-end Web-developer",
+        "company": "Ortvest • 01.2025 - obecnie",
+        "tasks": [
+          "Tworzenie i rozwój aplikacji internetowych",
+          "Praca z API i metodami żądań HTTP",
+          "Praca z różnymi bibliotekami React"
+        ]
+      },
+      "intern": {
+        "title": "Stażysta Web-Developer",
+        "company": "Sysmo.pl • 10.2024 - 03.2025",
+        "tasks": [
+          "Tworzenie i rozwój aplikacji internetowych",
+          "Praca z technologiami 3D na stronach internetowych",
+          "Praca z wykrywaniem punktów kluczowych ciała przy użyciu technologii MoveNet"
+        ]
+      }
+    }
+  },
+  "skills": {
+    "title": "Umiejętności",
+    "languages": {
+      "title": "Języki"
+    },
+    "spoken": [
+      { "name": "Polski", "initials": "PL", "level": "B2" },
+      { "name": "Angielski", "initials": "EN", "level": "B2" },
+      { "name": "Białoruski", "initials": "BY", "level": "B1" },
+      { "name": "Rosyjski", "initials": "RU", "level": "C1" }
+    ]
+  },
+  "projects": {
+    "title": "Projekty",
+    "bankrupt": {
+      "type": "Układ bankowy w sieci",
+      "description": "Projekt wykonany na zaliczenie przedmiotu na uczelni, który jest makietą bankowości z funkcjami tworzenia konta, tworzenia karty i wysyłania wirtualnej waluty."
+    },
+    "vpn": {
+      "type": "Backend dla VPN",
+      "description": "Backend dla projektu VPNguine, który jest rozszerzeniem przeglądarki VPN. Opracowany wspólnie z innym deweloperem."
+    },
+    "weather": {
+      "type": "Projekt wizualizacji danych",
+      "description": "Moja pierwsza aplikacja React korzystająca z JavaScript i OpenWeather API. Jest to aplikacja do przeglądania pogody i jej parametrów w różnych miastach i miejscowościach na świecie."
+    },
+    "userMgmt": {
+      "type": "Aplikacja menu w React",
+      "description": "Aplikacja stworzona na jedno z rozmów kwalifikacyjnych, która pobiera dane z otwartego API i wyświetla je w określonej tabeli z filtrowaniem według różnych czynników. Wykorzystano również Redux."
+    }
+  },
+  "footer": {
+    "agreement": "Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z ustawą z dnia 10 maja 2018 roku o ochronie danych osobowych (Dz. Ustaw z 2018, poz. 1000) oraz zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO)."
+  }
+}

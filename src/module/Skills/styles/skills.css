@@ -1,0 +1,142 @@
+.skills-container {
+  background-color: #1e2735;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: "GeistSans", sans-serif;
+}
+
+.skills-wrapper {
+  padding: 32px 24px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1200px;
+  width: 100%;
+  transform: translateX(180px);
+}
+
+.skill-edu {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.skill-icon {
+  display: inline-block;
+  background: linear-gradient(45deg, #a855f7, #db2777);
+  border-radius: 12px;
+  padding: 8px;
+  color: white;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-work {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+  font-family: "GeistSans", sans-serif;
+}
+
+.cards-row {
+  display: flex;
+  gap: 24px;
+  flex-wrap: nowrap;
+}
+
+.skill-card {
+  width: 264px;
+  height: 264px;
+  padding: 32px 32px 24px;
+  border: 1px solid #677083;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #2d3746;
+  position: relative;
+  margin-top: -20px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.section-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "GeistSans", sans-serif;
+}
+
+/* Списки */
+.reset-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Программные языки */
+.prog-lang {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-family: "GeistSans", sans-serif;
+  color: white;
+}
+
+.lang-icon {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.lang-name {
+  flex: 1;
+}
+
+/* Обычные языки */
+.spoken-lang {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  font-family: "GeistSans", sans-serif;
+  color: white;
+  gap: 8px;
+}
+
+.lang-initials {
+  min-width: 32px;
+  font-weight: 600;
+}
+
+.lang-level {
+  min-width: 32px;
+  text-align: right;
+  font-weight: 500;
+}

@@ -1,0 +1,94 @@
+.work-container {
+  background-color: #1e2735;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.work-wrapper {
+  padding: 32px 24px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1200px;
+  width: 100%;
+  transform: translateX(180px);
+}
+
+.work-edu {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.work-icon {
+  display: inline-block;
+  background: linear-gradient(45deg, #f97316, #dc2626);
+  border-radius: 12px;
+  padding: 8px;
+  color: white;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topic-work {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+  font-family: "GeistSans", sans-serif;
+}
+
+.work-inf {
+  background-color: #2d3746;
+  border: 1px solid #677083;
+  color: #d1d5d8;
+  border-radius: 4px;
+  padding: 32px 32px 24px;
+  width: 840px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  font-family: "GeistSans", sans-serif;
+}
+
+.work-inf--first {
+  margin-top: -20px;
+}
+
+.work-inf h3 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0 0 8px;
+  font-family: "GeistSans", sans-serif;
+}
+
+.work-inf > span {
+  display: block;
+  color: #9ca3af;
+  font-size: 18px;
+  font-family: "GeistSans", sans-serif;
+  margin-bottom: 12px;
+}
+
+.work-inf ul {
+  padding-left: 20px;
+  margin: 0;
+  list-style-type: disc;
+}
+
+.work-inf li {
+  color: #d1d5d8;
+  font-size: 18px;
+  font-family: "GeistSans", sans-serif;
+  margin-bottom: 10px;
+}
+
+.work-inf li:last-child {
+  margin-bottom: 0;
+}
