@@ -18,18 +18,18 @@ const projects = [
     link: "https://github.com/ProbablyNoth1ng/vpn-backend",
   },
   {
-    title: "WeatherApp",
-    typeKey: "weather.type",
-    descriptionKey: "weather.description",
-    stack: ["JavaScript", "OpenWeather API", "React"],
-    link: "https://github.com/GormanProg123/WeatherApp",
+    title: "WatchLaterApp",
+    typeKey: "watchlater.type",
+    descriptionKey: "watchlater.description",
+    stack: ["React Native", "TypeScript"],
+    link: "https://github.com/GormanProg123/WatchLaterApp",
   },
   {
-    title: "UserManagementTS",
-    typeKey: "userMgmt.type",
-    descriptionKey: "userMgmt.description",
-    stack: ["TypeScript", "Redux", "React"],
-    link: "https://github.com/GormanProg123/UserManagementTS",
+    title: "IncCity",
+    typeKey: "incCity.type",
+    descriptionKey: "incCity.description",
+    stack: ["TypeScript", "ThreeJS", "React"],
+    link: "https://github.com/GormanProg123/IncCity",
   },
 ];
 

@@ -4,7 +4,8 @@ import { RiGlobalLine } from "react-icons/ri";
 import { PiHardDrives } from "react-icons/pi";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiTypescript, SiNestjs, SiPostgresql } from "react-icons/si";
-import { FaReact, FaHtml5, FaCss3, FaNodeJs, FaPython } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaHtml5 } from "react-icons/fa";
+import { FaReact as FaReactNative } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 
 const frontendIconColor = "#2563eb";
@@ -18,6 +19,11 @@ type SpokenLanguage = {
 };
 
 const programmingLanguages = [
+  {
+    name: "HTML / CSS",
+    Icon: FaHtml5,
+    color: "#e34f26",
+  },
   {
     name: "JavaScript",
     Icon: IoLogoJavascript,
@@ -34,14 +40,9 @@ const programmingLanguages = [
     color: "#61dafb",
   },
   {
-    name: "HTML",
-    Icon: FaHtml5,
-    color: "#e34f26",
-  },
-  {
-    name: "CSS",
-    Icon: FaCss3,
-    color: "#264de4",
+    name: "React Native",
+    Icon: FaReactNative,
+    color: "#61dafb",
   },
 ];
 
@@ -61,15 +62,10 @@ const backendLanguages = [
     Icon: SiPostgresql,
     color: "#336791",
   },
-  {
-    name: "Python",
-    Icon: FaPython,
-    color: "#3776AB",
-  },
 ];
 
 export const Skills = () => {
-  const { t } = useTranslation("main"); // ✅ namespace main
+  const { t } = useTranslation("main");
 
   const spokenLanguages = t("skills.spoken", {
     returnObjects: true,

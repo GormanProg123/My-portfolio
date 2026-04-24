@@ -1,7 +1,7 @@
 {
   "aboutMe": {
     "title": "O mnie",
-    "description": "Jestem programistą webowym z Polski, obecnie studiuję w Collegium Da Vinci. Mój główny stack to React, TypeScript i NestJS/NodeJS. Mam także doświadczenie z HTML/CSS, PostgreSQL, Go oraz narzędziami Git, Jira i Swagger. Dodatkowo posiadam silne umiejętności komunikacyjne, co ułatwia mi współpracę z ludźmi i pracę zespołową. Potrafię jednak również pracować samodzielnie i w pełni angażuję się w swoją pracę."
+    "description": "Jestem programistą webowym z Polski, obecnie studiuję w Collegium Da Vinci. Mój główny stack to React, TypeScript i NestJS/NodeJS. Mam także doświadczenie z HTML/CSS, PostgreSQL, React Native oraz narzędziami Git, Jira i Swagger. Dodatkowo posiadam silne umiejętności komunikacyjne, co ułatwia mi współpracę z ludźmi i pracę zespołową. Potrafię jednak również pracować samodzielnie i w pełni angażuję się w swoją pracę."
   },
   "education": {
     "title": "Edukacja",
@@ -14,7 +14,7 @@
     "positions": {
       "frontend": {
         "title": "Front-end Web-developer",
-        "company": "Ortvest • 01.2025 - obecnie",
+        "company": "Ortvest • 01.2025 - 01.2026",
         "tasks": [
           "Tworzenie i rozwój aplikacji internetowych",
           "Praca z API i metodami żądań HTTP",
@@ -40,7 +40,7 @@
     "spoken": [
       { "name": "Polski", "initials": "PL", "level": "B2" },
       { "name": "Angielski", "initials": "EN", "level": "B2" },
-      { "name": "Białoruski", "initials": "BY", "level": "B1" },
+      { "name": "Białoruski", "initials": "BY", "level": "B2" },
       { "name": "Rosyjski", "initials": "RU", "level": "C1" }
     ]
   },
@@ -54,13 +54,13 @@
       "type": "Backend dla VPN",
       "description": "Backend dla projektu VPNguine, który jest rozszerzeniem przeglądarki VPN. Opracowany wspólnie z innym deweloperem."
     },
-    "weather": {
-      "type": "Projekt wizualizacji danych",
-      "description": "Moja pierwsza aplikacja React korzystająca z JavaScript i OpenWeather API. Jest to aplikacja do przeglądania pogody i jej parametrów w różnych miastach i miejscowościach na świecie."
+    "watchlater": {
+      "type": "Aplikacja mobilna",
+      "description": "Aplikacja React Native do zapisywania i zarządzania treściami do obejrzenia później."
     },
-    "userMgmt": {
-      "type": "Aplikacja menu w React",
-      "description": "Aplikacja stworzona na jedno z rozmów kwalifikacyjnych, która pobiera dane z otwartego API i wyświetla je w określonej tabeli z filtrowaniem według różnych czynników. Wykorzystano również Redux."
+    "incCity": {
+      "type": "Gra 3D na przeglądarce",
+      "description": "Mini gra typu city-building stworzona w 7 dni, wykorzystująca Three.js do interaktywnych obiektów 3D w przeglądarce."
     }
   },
   "footer": {

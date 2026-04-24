@@ -1,7 +1,7 @@
 {
   "aboutMe": {
     "title": "About Me",
-    "description": "I'm a web developer from Poland, currently pursuing higher education at Collegium Da Vinci. My main stack includes React, TypeScript, and NestJS/NodeJS. I also have experience with HTML/CSS, PostgreSQL, Go, as well as Git, Jira, and Swagger. Additionally, I possess strong communication skills, making it easy for me to interact with people and work in a team. However, I'm also capable of working independently and am fully committed to my work."
+    "description": "I'm a web developer from Poland, currently pursuing higher education at Collegium Da Vinci. My main stack includes React, TypeScript, and NestJS/NodeJS. I also have experience with HTML/CSS, PostgreSQL, React Native, as well as Git, Jira, and Swagger. Additionally, I possess strong communication skills, making it easy for me to interact with people and work in a team. However, I'm also capable of working independently and am fully committed to my work."
   },
   "education": {
     "title": "Education",
@@ -14,7 +14,7 @@
     "positions": {
       "frontend": {
         "title": "Front-end Web-developer",
-        "company": "Ortvest • 01.2025 - now",
+        "company": "Ortvest • 01.2025 - 01.2026",
         "tasks": [
           "Development and enhancement of web applications",
           "Working with APIs and HTTP request methods",
@@ -40,7 +40,7 @@
     "spoken": [
       { "name": "Polish", "initials": "PL", "level": "B2" },
       { "name": "English", "initials": "EN", "level": "B2" },
-      { "name": "Belarusian", "initials": "BY", "level": "B1" },
+      { "name": "Belarusian", "initials": "BY", "level": "B2" },
       { "name": "Russian", "initials": "RU", "level": "C1" }
     ]
   },
@@ -54,13 +54,13 @@
       "type": "Backend for VPN",
       "description": "The back-end for the VPNguine project, which is a VPN browser extension. Developed jointly with another developer."
     },
-    "weather": {
-      "type": "Data visualization project",
-      "description": "My first React app using JavaScript and OpenWeather API to view weather data in different cities around the world."
+    "watchlater": {
+      "type": "Mobile application",
+      "description": "A React Native app for saving and managing content to watch later."
     },
-    "userMgmt": {
-      "type": "React menu app",
-      "description": "An app for a job interview that fetches data from an open API and displays it in a table with filtering. Uses Redux."
+    "incCity": {
+      "type": "3D Web Game",
+      "description": "A mini city-building game built in 7 days, leveraging Three.js for interactive 3D objects on the web."
     }
   },
   "footer": {
