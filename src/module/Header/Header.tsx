@@ -8,16 +8,6 @@ import "./styles/header.css";
 export const Header = () => {
   const [language, setLanguage] = useState<"EN" | "PL">("EN");
   const { i18n } = useTranslation();
-  const handleLinkGit = () => {
-    window.open("https://github.com/GormanProg123", "_blank");
-  };
-
-  const handleLinkId = () => {
-    window.open(
-      "https://www.linkedin.com/in/heorhi-parfenchyk-ba94982a3/",
-      "_blank"
-    );
-  };
 
   const toggleLanguage = () => {
     const newLang = language === "EN" ? "PL" : "EN";
@@ -59,14 +49,25 @@ export const Header = () => {
             </li>
           </ul>
           <div className="buttons">
-            <button className="contact-button" onClick={handleLinkGit}>
+            <a
+              className="contact-button"
+              href="https://github.com/GormanProg123"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGithub className="button-icon" />
               GitHub
-            </button>
-            <button className="contact-button" onClick={handleLinkId}>
+            </a>
+
+            <a
+              className="contact-button"
+              href="https://www.linkedin.com/in/heorhi-parfenchyk-ba94982a3/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaLinkedin className="button-icon" />
               LinkedIn
-            </button>
+            </a>
           </div>
         </div>
         <div className="lang-switch">
